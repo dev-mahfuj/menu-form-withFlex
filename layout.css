@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.header-menu {
+    background-color: thistle;
+    min-height: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    margin-right: 15px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input,
+button {
+    width: 450px;
+    font-size: 1.1em;
+    border: 1px solid thistle;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 7px 10px;
+}
+
+.login-form button {
+    width: 100px;
+    background-color: thistle;
+    color: whitesmoke;
+}
